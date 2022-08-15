@@ -13,8 +13,8 @@ env:
   Branches: main
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm run dev
-  BuildCommand: npm install
+  InstallCommand: npm i
+  BuildCommand: npm run build
   Output: ./
 
 jobs:
